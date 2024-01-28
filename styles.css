@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color: #333;
+    font-size: x-large;
+
+}
+.me-img{
+    opacity:1;
+    background-image: url("me.jpg");
+    background-position:left;
+}
+
+
+.container {
+    /* background-color: rgb(248, 250, 229); */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+}
+
+.hero {
+    font-family: 'Workbench', sans-serif;
+    /* font-size: larger; */
+    /* background: url('your-background-image.jpg') center/cover no-repeat; */
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color:white;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.5em;
+    opacity: 0.8;
+}
+
+.navbar {
+    margin-top: 2px;
+    font-family: 'EB Garamond', serif;
+    background-color:rgb(177, 148, 112);
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.about-section, .resume-section, .portfolio-section, .blog-section, .contact-section {
+    background-color:rgb(248, 250, 229);
+    /* border-radius: 10px; */
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding: 40px;
+    /* margin: 20px 0; */
+    font-size: 20px;
+}
+
+.about-section h2, .resume-section h2, .portfolio-section h2, .blog-section h2, .contact-section h2 {
+    color: #333;
+}
+
+.footer {
+    font-family: 'EB Garamond', serif;
+    background-color:rgb(177, 148, 112);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.heart-icon {
+    color: red;
+    vertical-align: middle;
+}
+
+img{
+    transition: transform 0.3s ease-in-out;
+}
+img:hover{
+    transform: scale(1.15);
+}
+.social-section {
+    background-color: rgb(248, 250, 229);
+    /* border-radius: 10px; */
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+    padding: 40px;
+    margin: 2px 0;
+    font-size: 20px;
+}
+
+.social-section h2 {
+    color: #333;
+}
+
+.social-section p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.social-links {
+    /* list-style: none; */
+    padding: 40px;
+    margin: 0;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    color: #0056b3; /* Change link color on hover */
+}
